@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="curso.edu.eddgooglecalendar_201503422_201404200.Menu"
+    tools:showIn="@layout/activity_menu"
+    android:background="@drawable/principal">
+
+    <Button
+        android:id="@+id/Compras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:elevation="0dp"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="18sp"
+        android:text="Carrito de Compras"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Cuenta"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Agregar"
+        android:layout_below="@+id/Agregar"
+        android:layout_marginTop="18dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="Estado de Cuenta"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/Rep"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cuenta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="Reporte"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+
+    <Button
+        android:id="@+id/Agregar"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Compras"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="Agregar Fondos"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/ResumenCompras"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Rep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="Resumen de Compras"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Salir"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Rep"
+        android:layout_below="@+id/ResumenCompras"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="Salir"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
