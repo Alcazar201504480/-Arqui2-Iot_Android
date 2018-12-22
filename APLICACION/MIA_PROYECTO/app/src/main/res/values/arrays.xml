@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Array con los valores de la cabecera de la tabla-->
+    <string-array name="cabecera_tabla">
+        <item>Factura No.</item>
+        <item>Serie</item>
+        <item>Fecha Factura</item>
+        <item>Total</item>
+    </string-array>
+    <string-array name="cabecera_compras">
+        <item>ID PRODUCTO</item>
+        <item>CANTIDAD</item>
+        <item>PRECIO</item>
+    </string-array>
+</resources>

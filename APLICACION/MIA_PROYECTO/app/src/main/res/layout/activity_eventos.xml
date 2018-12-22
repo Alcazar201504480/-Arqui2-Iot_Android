@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eventos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="curso.edu.eddgooglecalendar_201503422_201404200.Eventos"
+    android:background="@drawable/principal"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="NIT:"
+        android:ems="10"
+        android:id="@+id/vnit"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText,LabelFor" />
+    <TextView
+        android:text="nit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nit"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_below="@+id/vnit"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="DPI:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vDPI"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/nit"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/DPI"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vDPI"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="NOMBRE:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vnombre"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/DPI"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/nombre"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vnombre"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="APELLIDO:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vapellido"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/apellido"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vapellido"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ESTADO:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vestado"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/apellido"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/estado"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vestado"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SEXO:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vsexo"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/estado"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/sexo"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vsexo"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="FONDOS:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vfondos"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/sexo"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DPI"
+        android:ems="10"
+        android:id="@+id/fondos"
+        tools:ignore="HardcodedText,LabelFor"
+        android:layout_below="@+id/vfondos"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
