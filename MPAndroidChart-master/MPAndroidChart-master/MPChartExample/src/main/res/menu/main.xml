@@ -2,16 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/viewGithub"
-        android:title="@string/viewGithub">
+        android:id="@+id/VerNombres"
+        android:title="Nombres Integrantes">
     </item>
-    <item
-        android:id="@+id/report"
-        android:title="@string/reportProblem">
-    </item>
-    <item
-        android:id="@+id/website"
-        android:title="@string/viewWebsite">
-    </item>
+
 
 </menu>

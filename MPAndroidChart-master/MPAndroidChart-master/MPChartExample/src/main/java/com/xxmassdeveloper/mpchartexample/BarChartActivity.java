@@ -95,7 +95,7 @@ public class BarChartActivity extends DemoBase implements OnSeekBarChangeListene
         xAxis.setLabelCount(7);
         xAxis.setValueFormatter(xAxisFormatter);
 
-        ValueFormatter custom = new MyValueFormatter("$");
+        ValueFormatter custom = new MyValueFormatter("s");
 
         YAxis leftAxis = chart.getAxisLeft();
         leftAxis.setTypeface(tfLight);
